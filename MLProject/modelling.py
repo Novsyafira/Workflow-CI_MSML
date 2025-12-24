@@ -12,7 +12,7 @@ def main():
     mlflow.set_experiment("CI_Obesity_Classification")
     mlflow.sklearn.autolog(log_models=False)
 
-    df = pd.read_csv("C:/Users/ASUS/PROGRAMMING LANGUAGE/SMSL_Novsyafira-Azzahyra1/Workflow-CI/dataset/diabetes_preprocessing.csv")
+    df = pd.read_csv("MLProject/diabetes_preprocessing.csv")
 
     X = df.drop("Outcome", axis=1)
     y = df["Outcome"]
