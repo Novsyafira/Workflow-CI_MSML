@@ -1,4 +1,4 @@
-name: CI-Obesity-Classification
+name: diabetes-mlflow-project
 
 conda_env: conda.yaml
 
